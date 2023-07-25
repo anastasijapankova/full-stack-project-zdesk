@@ -1,0 +1,78 @@
+.sideBar {
+    width: 20%;
+    height: 100vh;
+    background: #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-x: hidden;
+    position: fixed;
+
+}
+
+.sideBar-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.sideBar-top img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.sideBar-name {
+    padding-top: 1rem;
+    font-weight: 700;
+}
+
+.sideBar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a:hover {
+    color: #FF9248;
+    font-weight: 700;
+}
+
+
+.nav-item {
+    text-decoration: none;
+    display: flex;
+    align-self: flex-start;
+    gap: 0.5rem;
+    color: #2F2E41;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button {
+    background-color: #FF9248;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}

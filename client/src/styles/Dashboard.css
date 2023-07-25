@@ -1,0 +1,54 @@
+/* body {
+    overflow-y: hidden;
+} */
+
+.dashboard {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 3rem 0;
+    /* overflow-y: hidden; */
+}
+
+.dashboard h1 {
+    align-self: start;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    position: sticky;
+}
+
+span {
+    color: #FF9248;
+}
+
+.selection {
+    width: 65%;
+    /* overflow: auto; */
+    display: flex;
+}
+
+.wrap {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    overflow-y: auto;
+    height: calc(100vh - 10rem);
+    /* height: 100vh; */
+    align-items: stretch;
+    width: 80vw;
+    align-content: flex-start;
+
+}
+
+.filter {
+    width: 20%;
+    background-color: #FFD7B5;
+    border-radius: 1rem;
+    padding: 1rem;
+    position: fixed;
+    right: 5%;
+    z-index: 1;
+}

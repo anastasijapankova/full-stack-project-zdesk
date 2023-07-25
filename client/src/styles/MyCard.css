@@ -1,0 +1,66 @@
+.mybookings-card {
+    background-color: #F5F5F5;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 14rem;
+    justify-content: space-between;
+    width: 21rem;
+}
+
+.mybookings-card:hover {
+    transform: scale(1.01)
+}
+
+.mybookings-card-top-middle {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.mybookings-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.mybookings-date {
+    color: #FF9248;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.trash-bin {
+    display: flex;
+    align-self: flex-start;
+    padding-top: 0.5rem;
+}
+
+.trash-icon {
+    font-size: 1.2rem;
+}
+
+.trash-icon:hover {
+    color: #FF9248;
+    cursor: pointer;
+}
+
+.mybookings-desk-number {
+    font-weight: 700;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.mybookings-card-top-1 {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.mybookings-card-middle {
+    display: flex;
+    justify-content: space-between;
+}
